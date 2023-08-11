@@ -4,5 +4,5 @@
 
 ## Call UI
 ![zoomcall](https://github.com/lokeshchoudharyprogrammer/zoom-clone-app/assets/112642820/56bce044-e835-46e6-8d0d-880436142943)
-## Call Call Screen
+## Call Screen
 ![sms](https://github.com/lokeshchoudharyprogrammer/zoom-clone-app/assets/112642820/25718c69-cd27-42a0-9dab-b7efc5e1b113)
