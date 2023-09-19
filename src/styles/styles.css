@@ -15,6 +15,7 @@ main {
 
 main>*:nth-child(odd) {
   background-color: #ea4d4e;
+  border-radius: 17px;
 }
 
 section {
@@ -28,6 +29,8 @@ section {
   section {
     height: auto;
   }
+
+
 }
 
 .section-text {
@@ -98,7 +101,7 @@ section {
 
 .section-image img,
 .section-image__small img {
-  width: 552px;
+  width: 320px;
 
   padding: 0px;
   display: flex;
@@ -107,7 +110,7 @@ section {
 }
 
 .section-image-features img {
-  width: 80%;
+  width: 53%;
 }
 
 @media screen and (max-width: 700px) {
@@ -115,7 +118,14 @@ section {
   .section-image,
   .section-image-features,
   .section-image__small {
-    display: none;
+    width: 552px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 318px;
+    margin-top: 60px;
+
   }
 }
 
@@ -385,9 +395,34 @@ section#download .section-image {
   padding: 30px 0;
 }
 
+@media (min-width:320px) {
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    flex-direction: column;
+    gap: 66px;
+
+  }
+}
+
+@media (min-width:480px) {
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 0;
+  }
+}
+
+@media (min-width:600px) {}
+
 .col-50 {
   width: 50%;
   padding: 0px 14px;
+
 }
 
 .col-30 {

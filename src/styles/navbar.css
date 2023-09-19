@@ -8,6 +8,7 @@
   height: 70px;
   overflow: hidden;
   z-index: 1000;
+  background-color: #ee6d6d;
 }
 .nav-stickey {
   animation: nav-enter-anim 0.15s ease-in;
@@ -40,6 +41,7 @@
 .nav-links__container {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 .nav-link {
   height: 100%;
@@ -52,7 +54,7 @@
 .nav .nav-link__text {
   margin: auto 0px;
   padding: 0px 12px;
-  color: #fcfcfc;
+  color: #000000;
   font-size: 1.2rem;
   font-weight: 300;
 }

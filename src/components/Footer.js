@@ -7,10 +7,9 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-30">
-            <div className="footer-text__title">Felisity</div>
+            <div className="footer-text__title">Infinity Call</div>
             <div className="footer-text__body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
-              eiusmod tempor incididunt ut labore.
+            Experience boundless communication possibilities with Infinity Call, where seamless video calls and advanced features unite.
             </div>
           </div>
           <div className="col-30">

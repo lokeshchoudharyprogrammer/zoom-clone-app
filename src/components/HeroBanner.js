@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import "../styles/login.css"
 function HeroBanner() {
   return (
     <section id="home">
@@ -13,19 +13,19 @@ function HeroBanner() {
               Call & Chat  With Your Friend Free
             </div>
             <div className="section-text__body">
-              Dorem ipsum dolor sitamet, consectetur adipiscing elit, sed do
-              eiusm tempor incididunt ulabore et dolore magna aliqua.
+              Introducing our innovative video call app, seamlessly connecting users through high-quality video and audio communication. Enjoy group calls, screen sharing, and secure conversations, redefining virtual interactions for both personal and professional use.
             </div>
-            <a href="#download" className="download-btn">
+            <a href="#download">
               <Link to='/video-app' style={{ color: "whitesmoke" }}>
 
-                Get Start Calling Now
+                <button className="call-btn">Create A Metting
+                </button>
               </Link>
             </a>
           </div>
 
           <div className="section-image">
-            <img width={"80%"} src="https://www.dingtone.me/images/download/img_download@2x.png" alt="App Preview" />
+            <img className="img-new" src="https://www.dingtone.me/images/download/img_download@2x.png" alt="App Preview" />
           </div>
         </Row>
       </Container>
