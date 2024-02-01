@@ -31,8 +31,8 @@ const VideoApp = () => {
 
 
     let myMeeting = async (element) => {
-        const appID = 1400438286;
-        const serverSecret = "6b8a4a17dc7271263fae348e4f0e866d";
+        const appID = 666540013;
+        const serverSecret = "ceab481bd0937052246dd0908c1ee01a";
 
 
         const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, randomID(5), randomID(5));
